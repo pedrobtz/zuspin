@@ -19,7 +19,10 @@ worked examples. Read them before designing build glue here.
 
 The package is a `usethis` skeleton: `DESCRIPTION` still has placeholder Title/Description/Authors,
 there is no `src/`, no exported function and no test file beyond `tests/testthat.R`. Nothing
-about Spin has been imported or written yet.
+about Spin has been imported or written yet. Work is paced by [roadmap.md](roadmap.md); its
+stages name the libspin stage each one depends on, and `../libspin/roadmap.md` is the C-side
+plan. Stage 0 (package identity, API list) and Stage 1 (toolchain spike) can start now;
+Stage 2 waits for libspin `v0.1.0`.
 
 ## Architecture decision: where the CLI-to-library conversion lives
 
